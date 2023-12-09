@@ -5,7 +5,7 @@
   "main": "modules/index.ts",
   "scripts": {
     "build": "nuxt build",
-    "dev": "nuxt dev --port=3200",
+    "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
@@ -19,13 +19,13 @@
     "@nuxtjs/storybook": "^7.0.0",
     "@storybook-vue/nuxt": "^0.2.0",
     "@storybook-vue/nuxt-storybook": "0.0.1-latest.7",
-    "@storybook/addon-essentials": "^7.5.3",
-    "@storybook/addon-interactions": "^7.5.3",
-    "@storybook/addon-links": "^7.5.3",
-    "@storybook/blocks": "^7.5.3",
-    "@storybook/builder-vite": "^7.5.3",
+    "@storybook/addon-essentials": "^7.6.4",
+    "@storybook/addon-interactions": "^7.6.4",
+    "@storybook/addon-links": "^7.6.4",
+    "@storybook/blocks": "^7.6.4",
+    "@storybook/builder-vite": "^7.6.4",
     "@storybook/testing-library": "^0.2.0",
-    "@storybook/vue3": "^7.5.3",
+    "@storybook/vue3": "^7.6.4",
     "@types/node": "^18.17.5",
     "nuxt": "^3.8.2",
     "react": "^18.2.0",
@@ -33,5 +33,12 @@
     "storybook": "^7.6.4",
     "vue": "^3.3.8",
     "vue-router": "^4.2.5"
+  },
+  "pnpm": {
+    "overrides": {
+      "@babel/plugin-proposal-class-properties": "npm:@babel/plugin-transform-class-properties",
+      "@babel/plugin-proposal-optional-chaining": "npm:@babel/plugin-transform-optional-chaining",
+      "@babel/plugin-proposal-nullish-coalescing-operator": "npm:@babel/plugin-transform-nullish-coalescing-operator"
+    }
   }
 }

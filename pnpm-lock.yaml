@@ -58,25 +58,25 @@ importers:
         specifier: 0.0.1-latest.7
         version: 0.0.1-latest.7(nuxt@3.8.2)(vite@5.0.7)
       '@storybook/addon-essentials':
-        specifier: ^7.5.3
+        specifier: ^7.6.4
         version: 7.6.4(react-dom@18.2.0)(react@18.2.0)
       '@storybook/addon-interactions':
-        specifier: ^7.5.3
+        specifier: ^7.6.4
         version: 7.6.4
       '@storybook/addon-links':
-        specifier: ^7.5.3
+        specifier: ^7.6.4
         version: 7.6.4(react@18.2.0)
       '@storybook/blocks':
-        specifier: ^7.5.3
+        specifier: ^7.6.4
         version: 7.6.4(react-dom@18.2.0)(react@18.2.0)
       '@storybook/builder-vite':
-        specifier: ^7.5.3
+        specifier: ^7.6.4
         version: 7.6.4(typescript@5.3.3)(vite@5.0.7)
       '@storybook/testing-library':
         specifier: ^0.2.0
         version: 0.2.2
       '@storybook/vue3':
-        specifier: ^7.5.3
+        specifier: ^7.6.4
         version: 7.6.4(@vue/compiler-core@3.3.11)(vue@3.3.11)
       '@types/node':
         specifier: ^18.17.5
@@ -4916,7 +4916,7 @@ packages:
   /@types/webpack-hot-middleware@2.25.5:
     resolution: {integrity: sha512-/eRWWMgZteNzl17qLCRdRmtKPZuWy984b11Igz9+BAU5a99Hc2AJinnMohMPVahGRSHby4XwsnjlgIt9m0Ce3g==}
     dependencies:
-      '@types/connect': 3.4.37
+      '@types/connect': 3.4.38
       '@types/webpack': 4.41.38
     dev: true
 
