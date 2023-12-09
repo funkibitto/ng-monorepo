@@ -1,0 +1,14 @@
+{
+  "name": "@loca/tailwind-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.10.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
