@@ -1,5 +1,5 @@
 <template>
-    <button class="p-2 bg-red-500 text-orange-300">
+    <button class="p-2 bg-yellow-500 text-black">
       <slot></slot>
     </button>
 </template>

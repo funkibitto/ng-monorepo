@@ -4,4 +4,7 @@ export default defineNuxtConfig({
 
   // modules: ['@nuxtjs/tailwindcss',  '@nuxtjs/storybook'],
   modules: ['@nuxtjs/tailwindcss'],
+  // components: [
+  //   { path: '~/components', prefix: 'LC' },
+  // ]
 })
