@@ -9,13 +9,7 @@
     "dev": "pnpm -r dev",
     "clean": "rm -rf node_modules && rm pnpm-lock.yaml"
   },
-  
-  "packageManager": "pnpm@8.10.0", 
-  "devDependencies": {
-    "pnpm": "^8.10.0"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC"
-
 }
