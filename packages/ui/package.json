@@ -2,7 +2,7 @@
   "name": "@loca/ui",
   "private": true,
   "type": "module",
-  "main": "modules/index.ts",
+  "main": "./nuxt.config.ts",
   "scripts": {
     "build": "nuxt build",
     "dev:ui": "nuxt dev --port=3010",

@@ -1,6 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  // modules: ['@nuxtjs/tailwindcss', '@loca/ui'],
-  modules: [ '@loca/ui'],
+  modules: ['@nuxtjs/tailwindcss'],
+  extends: [
+    '@loca/ui'
+  ]
 })

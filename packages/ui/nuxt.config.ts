@@ -3,5 +3,5 @@ export default defineNuxtConfig({
   devtools: { enabled: false },
 
   // modules: ['@nuxtjs/tailwindcss',  '@nuxtjs/storybook'],
-  // modules: ['@nuxtjs/tailwindcss'],
+  modules: ['@nuxtjs/tailwindcss'],
 })

@@ -15,7 +15,7 @@ export default defineNuxtModule({
     // // add the helper plugin
     // addPlugin(resolve('lib/plugins/helper.ts'))
     // // add animate.css file from animate.css library
-    // nuxt.options.css.push('animate.css')
-    // // nuxt.options.modules.push('@nuxtjs/tailwindcss')
+    // nuxt.options.css.push('tailwind.css')
+    nuxt.options.modules.push('@nuxtjs/tailwindcss')
   },
 })
