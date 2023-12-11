@@ -1,11 +1,10 @@
 {
-  "name": "eslint-config",
+  "name": "@loca/eslint-config",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "files": [
+    "nuxt.js"
+  ],
   "devDependencies": {
     "prettier": "^3.1.0",
     "@nuxtjs/eslint-config-typescript": "^12.1.0",

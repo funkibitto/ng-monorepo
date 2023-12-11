@@ -18,7 +18,9 @@
     "eslint": "^8.55.0",
     "prettier": "^3.1.0",
     "@nuxtjs/tailwindcss": "^6.10.1",
-    "@loca/tailwind-config": "workspace:^"
+    "@loca/tailwind-config": "workspace:^",
+    "@loca/eslint-config": "0:^",
+    "@loca/prettier-config": "workspace:^"
   },
   "dependencies": {
     "@loca/ui": "workspace:^"

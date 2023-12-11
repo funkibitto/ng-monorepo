@@ -4,5 +4,5 @@ export default  {
   "endOfLine": "auto",
   "arrowParens": "always",
   "tabWidth": 2,
-"trailingComma": "all"
+  "trailingComma": "all"
 };

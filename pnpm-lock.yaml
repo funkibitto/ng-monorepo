@@ -8,6 +8,12 @@ importers:
 
   .:
     devDependencies:
+      '@loca/eslint-config':
+        specifier: workspace:^
+        version: link:packages/eslint-config
+      '@loca/prettier-config':
+        specifier: workspace:^
+        version: link:packages/prettier-config
       eslint:
         specifier: ^8.55.0
         version: 8.55.0
@@ -27,6 +33,12 @@ importers:
         specifier: workspace:^
         version: link:../../packages/ui
     devDependencies:
+      '@loca/eslint-config':
+        specifier: workspace:^
+        version: link:../../packages/eslint-config
+      '@loca/prettier-config':
+        specifier: workspace:^
+        version: link:../../packages/prettier-config
       '@loca/tailwind-config':
         specifier: workspace:^
         version: link:../../packages/tailwind-config
