@@ -8,6 +8,5 @@
   </div>
 </template>
 <script setup lang="ts">
-    
-    const test= 1
+const first = ref(1)
 </script>

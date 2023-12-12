@@ -7,7 +7,8 @@
     "ng": "pnpm --filter @loca/ng",
     "ui": "pnpm --filter @loca/ui",
     "dev": "pnpm -r dev",
-    "clean": "rm -rf node_modules && rm pnpm-lock.yaml"
+    "npm-clean": "find . -name \"node_modules\" -prune -exec rm -rf '{}' +",
+    "clean": "pnpm npm-clean && rm -rf pnpm-lock.yaml"
   },
   "devDependencies": {
     "eslint": "^8.55.0",
